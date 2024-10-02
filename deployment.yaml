@@ -13,6 +13,6 @@ spec:
       labels:
         run: argocd-kube
     spec:
-      containers:
+      - image: 160885288882.dkr.ecr.ap-northeast-2.amazonaws.com/web-site:8790911
       - image: 
         name: argocd-kube
